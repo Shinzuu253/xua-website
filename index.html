@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XƯA - Nước Giải Khát Thiên Nhiên Truyền Thống | Giá Chỉ Từ 15.000đ</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: {
+                            100: '#FAF6EE',
+                            200: '#F2EAD8',
+                            300: '#E8DEC9',
+                            400: '#D9CBB0'
+                        },
+                        earth: {
+                            700: '#726252',
+                            800: '#5A4D41',
+                            900: '#2D231E',
+                        },
+                        terracotta: {
+                            DEFAULT: '#C85A32',
+                            dark: '#A64522',
+                            light: '#E2734C'
+                        },
+                        atiso: {
+                            DEFAULT: '#4E7A53',
+                            dark: '#3A5E3E',
+                            light: '#69996E'
+                        },
+                        sunshine: {
+                            DEFAULT: '#D48C2B',
+                            light: '#EAB252'
+                        }
+                    },
+                    fontFamily: {
+    serif: ['Lora', 'serif'],
+    sans: ['Be Vietnam Pro', 'sans-serif'],
+    display: ['DM Serif Display', 'serif']
+}
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #FAF6EE;
+            color: #2D231E;
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background-image: radial-gradient(#2D231E 0.35px, transparent 0.35px);
+            background-size: 20px 20px;
+        }
+
+        .heading-serif {
+            font-family: 'Merriweather', serif;
+        }
+
+        .vintage-shadow {
+            box-shadow: 6px 6px 0px #5A4D41;
+        }
+
+        .vintage-shadow-sm {
+            box-shadow: 4px 4px 0px #5A4D41;
+        }
+
+        .vintage-shadow-orange {
+            box-shadow: 6px 6px 0px #C85A32;
+        }
+
+        .vintage-border {
+            border: 2px solid #2D231E;
+        }
+
+        .bg-paper {
+            background-color: #F2EAD8;
+            background-image: radial-gradient(rgba(45, 35, 30, 0.05) 1px, transparent 0);
+            background-size: 10px 10px;
+        }
+
+        .badge-stamp {
+            display: inline-block;
+            border: 2px dashed #C85A32;
+            padding: 4px 12px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FAF6EE;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C85A32;
+            border-radius: 4px;
+        }
+
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-6px) rotate(1deg); }
+        }
+        .animate-float {
+            animation: floatSlow 4s ease-in-out infinite;
+        }
+ .hero-bottles {
+    height: 260px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2px;
+    overflow: visible;
+}
+
+.hero-bottle {
+    position: relative;
+    width: 58px;
+    height: 230px;
+    flex: 0 0 58px;
+    overflow: visible;
+    z-index: 1;
+}
+
+.hero-bottles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0;
+    margin: 25px 0;
+}
+
+.hero-bottle{
+    position:relative;
+    margin:0 -0.5px;
+    z-index:1;
+    transition:.3s;
+}
+
+.hero-bottle img{
+    display:block;
+    height:220px;
+    width:auto;
+    transition:transform .28s ease;
+}
+
+.hero-bottle:hover{
+    z-index:20;
+}
+
+.hero-bottle:hover img{
+    transform:translateY(-12px) scale(1.12);
+}
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    background-image:
+        linear-gradient(
+            rgba(250, 246, 238, 0.82),
+            rgba(250, 246, 238, 0.82)
+        ),
+        url("Anh-nen.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(1.5px);
+    transform: scale(1.03);
+}
+</style>
+</head>
+<body class="bg-cream-100 text-earth-900 antialiased selection:bg-terracotta selection:text-white">
+
+    <!-- PHẦN 1: HEADER & NAVIGATION -->
+    <header class="sticky top-0 z-50 bg-cream-100/95 backdrop-blur border-b-2 border-earth-900/15 px-4 lg:px-8 py-3 transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+                             <div>
+    <img src="logo.png" alt="Logo XƯA" style="height:70px; width:auto;">
+</div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-7 font-semibold text-xs uppercase tracking-wider text-earth-800">
+                <a href="#hero" class="hover:text-terracotta transition-colors">Trang Chủ</a>
+                <a href="#brand-story" class="hover:text-terracotta transition-colors">Câu Chuyện XƯA</a>
+                <a href="#products" class="hover:text-terracotta transition-colors">Bộ 5 Hương Vị</a>
+                <a href="#combos" class="hover:text-terracotta transition-colors">Đặt Hàng & Ưu Đãi</a>
+                <a href="#reviews" class="hover:text-terracotta transition-colors">Góc Kỷ Niệm</a>
+                <a href="#store-locator" class="hover:text-terracotta transition-colors">Điểm Bán</a>
+            </nav>
+
+            <!-- CTA Header & Audio Trigger -->
+            <div class="flex items-center gap-3">
+                <button onclick="playCapSound()" title="Nghe tiếng mở nắp chai!" class="hidden sm:flex items-center gap-2 bg-cream-200 border border-earth-900 px-3 py-1.5 rounded-full text-xs font-semibold text-earth-900 hover:bg-terracotta hover:text-white transition-all">
+                    <i class="fa-solid fa-volume-high text-terracotta group-hover:text-white"></i>
+                    <span>Tiếng "Tách"!</span>
+                </button>
+                <a href="#order-form" class="bg-terracotta hover:bg-terracotta-dark text-white font-bold text-xs sm:text-sm px-4 sm:px-5 py-2.5 rounded-full border-2 border-earth-900 vintage-shadow-sm transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+                    <i class="fa-solid fa-cart-shopping text-xs"></i>
+                    <span>Mua Ngay (15K)</span>
+                </a>
+                <!-- Mobile Menu Button -->
+                <button onclick="toggleMobileMenu()" class="md:hidden text-earth-900 text-xl p-1 focus:outline-none">
+                    <i class="fa-solid fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div id="mobileDrawer" class="hidden md:hidden pt-4 pb-2 border-t border-earth-900/10 mt-3 space-y-3 font-semibold text-sm text-earth-900">
+            <a href="#hero" onclick="toggleMobileMenu()" class="block py-1 hover:text-terracotta">Trang Chủ</a>
+            <a href="#brand-story" onclick="toggleMobileMenu()" class="block py-1 hover:text-terracotta">Câu Chuyện XƯA</a>
+            <a href="#products" onclick="toggleMobileMenu()" class="block py-1 hover:text-terracotta">Bộ 5 Hương Vị</a>
+            <a href="#combos" onclick="toggleMobileMenu()" class="block py-1 hover:text-terracotta">Đặt Hàng & Ưu Đãi</a>
+            <a href="#reviews" onclick="toggleMobileMenu()" class="block py-1 hover:text-terracotta">Góc Kỷ Niệm</a>
+            <a href="#store-locator" onclick="toggleMobileMenu()" class="block py-1 hover:text-terracotta">Điểm Bán & Phân Phối</a>
+        </div>
+    </header>
+
+    <!-- PHẦN 2: BRAND STORY & HERO SECTION -->
+    <section id="hero" class="relative pt-6 pb-16 md:py-20 px-4 overflow-hidden">
+
+    <div class="hero-bg"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            
+            <!-- Hero Left Content -->
+            <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                <!-- Badge Campaign -->
+                <div class="inline-flex items-center gap-2 bg-cream-200 border-2 border-earth-900 px-4 py-1.5 rounded-full text-xs font-bold text-terracotta shadow-sm">
+                    <span class="w-2 h-2 rounded-full bg-terracotta animate-ping"></span>
+                    <span>Chiến Dịch: "Vị Hè Trở Lại" | Nước Giải Khát Thiên Nhiên XƯA</span>
+                </div>
+
+                <!-- Headline -->
+                <h1
+    class="text-4xl sm:text-5xl lg:text-6xl text-earth-900 leading-tight"
+    style="font-family:'DM Serif Display', serif; font-weight:400;"
+>
+    Chạm vị xưa,<br>
+    <span
+        class="text-terracotta italic"
+        style="font-family:'DM Serif Display', serif; font-weight:400;"
+    >
+        Trọn vẹn niềm vui
+    </span>
+</h1>
+
+                <!-- Price Anchor Highlight Badge -->
+                <div class="inline-block bg-sunshine/20 border border-sunshine text-earth-900 px-4 py-2 rounded-xl text-sm font-semibold">
+                    <i class="fa-solid fa-tag text-terracotta mr-1.5"></i>
+                    <span>Hương vị thiên nhiên nguyên bản — </span>
+                    <strong class="text-terracotta text-base heading-serif font-bold">GIÁ CHỈ TỪ 15.000đ/CHAI</strong>
+                </div>
+
+                <!-- Sub-headline -->
+                <p class="text-earth-800 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                    Mỗi chai nước là một chiếc vé đưa bạn trở về mùa hè tuổi thơ — nơi có bóng mát hiên nhà, tiếng ve râm ran trưa vắng và ly nước mát lành tay mẹ ngâm tay pha.
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                    <a href="#order-form" class="w-full sm:w-auto bg-terracotta hover:bg-terracotta-dark text-white font-bold text-base px-8 py-4 rounded-full border-2 border-earth-900 vintage-shadow text-center transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                        <span>[ ĐẶT THỬ COMBO KÝ ỨC ]</span>
+                        <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                    <a href="#brand-story" class="w-full sm:w-auto bg-cream-200 hover:bg-cream-300 text-earth-900 font-bold text-sm px-6 py-4 rounded-full border-2 border-earth-900 text-center transition-all flex items-center justify-center gap-2">
+                        <span>Khám Phá Câu Chuyện</span>
+                    </a>
+                </div>
+
+                <!-- Quick Highlights (USP) -->
+                <div class="pt-6 grid grid-cols-3 gap-2 sm:gap-4 border-t-2 border-earth-900/10 text-center sm:text-left">
+                    <div class="flex flex-col sm:flex-row items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-atiso/10 text-atiso flex items-center justify-center font-bold shrink-0">
+                            <i class="fa-solid fa-leaf text-sm"></i>
+                        </div>
+                        <span class="text-xs sm:text-sm font-semibold text-earth-800">100% Nông Sản VietGAP</span>
+                    </div>
+                    <div class="flex flex-col sm:flex-row items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-terracotta/10 text-terracotta flex items-center justify-center font-bold shrink-0">
+                            <i class="fa-solid fa-ban text-sm"></i>
+                        </div>
+                        <span class="text-xs sm:text-sm font-semibold text-earth-800">0% Hương Liệu Nhân Tạo</span>
+                    </div>
+                    <div class="flex flex-col sm:flex-row items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-sunshine/10 text-sunshine flex items-center justify-center font-bold shrink-0">
+                            <i class="fa-solid fa-heart-pulse text-sm"></i>
+                        </div>
+                        <span class="text-xs sm:text-sm font-semibold text-earth-800">Giảm 30% Đường Thanh</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Visual Packaging Artwork Showcase -->
+            <div class="lg:col-span-5">
+                <div class="bg-paper p-5 rounded-3xl border-2 border-earth-900 vintage-shadow relative overflow-hidden">
+                    
+                    <div class="bg-cream-100 rounded-2xl border border-earth-800/30 p-5 text-center relative">
+                                                <div class="absolute top-3 right-3 bg-sunshine text-earth-900 font-bold text-[10px] uppercase tracking-wider px-2.5 py-1 rounded border border-earth-900">
+                            Chỉ Từ 15k
+                        </div>
+
+                       <!-- 5 Bottles Illustrative Canvas Render -->
+<div class="my-6 py-4 hero-bottles">
+
+    <div class="hero-bottle hero-sau">
+        <img src="Chai-sau.png" alt="Chai nước sấu XƯA">
+    </div>
+
+    <div class="hero-bottle hero-me">
+        <img src="Chai-me.png" alt="Chai me ngâm XƯA">
+    </div>
+
+    <div class="hero-bottle hero-dau-tam">
+        <img src="Chai-dau-tam.png" alt="Chai dâu tằm XƯA">
+    </div>
+
+    <div class="hero-bottle hero-atiso">
+        <img src="Chai-atiso.png" alt="Chai atiso XƯA">
+    </div>
+
+    <div class="hero-bottle hero-mo">
+        <img src="Chai-mo.png" alt="Chai mơ ngâm XƯA">
+    </div>
+
+</div>
+
+                        <div class="bg-cream-200/90 rounded-xl p-3 border border-earth-800/20 text-center">
+                            <p class="text-xs font-bold text-earth-900 heading-serif italic">
+                                "5 Chai Ghép Lại Thành Bức Tranh Mùa Hè Tuổi Thơ Việt Nam"
+                            </p>
+                            <span class="text-[10px] text-earth-800 block mt-1">Nước Sấu • Me Ngâm • Dâu Tằm • Atiso • Mơ Ngâm</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 text-center">
+                        <button onclick="playCapSound()" class="text-xs font-bold text-terracotta hover:underline inline-flex items-center gap-1.5">
+                            <i class="fa-solid fa-bottle-droplet"></i>
+                            <span>Bấm nghe thử âm thanh mở nắp "Tách"</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- STORYTELLING BLOCK -->
+    <section id="brand-story" class="py-16 md:py-24 px-4 bg-cream-200 border-y-2 border-earth-900/10">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <div class="inline-block">
+                <span class="text-xs font-bold text-terracotta uppercase tracking-widest bg-cream-100 border border-terracotta px-3 py-1 rounded-full">
+                    Câu Chuyện Thương Hiệu
+                </span>
+            </div>
+
+            <h2
+    class="text-3xl sm:text-4xl md:text-5xl text-earth-900 leading-tight"
+    style="font-family:'DM Serif Display', serif; font-weight:700;"
+>
+    "Ký ức không nằm ở trí nhớ,
+    <span
+        class="text-terracotta"
+        style="display:block; margin-top:6px; font-family:'DM Serif Display', serif; font-size:0.88em; font-weight:700;"
+    >
+        mà nằm ở hương vị"
+    </span>
+</h2>
+
+            <div class="relative bg-cream-100 p-8 sm:p-12 rounded-3xl border-2 border-earth-900 vintage-shadow space-y-6 text-earth-800 text-base sm:text-lg leading-relaxed text-justify sm:text-center">
+                <div class="w-12 h-12 rounded-full bg-terracotta/10 text-terracotta flex items-center justify-center text-2xl mx-auto">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <p>
+                    Giữa nhịp sống phố thị phồn hoa hối hả, giữa những áp lực bộn bề công việc... Đã bao lâu rồi bạn chưa tìm lại cảm giác mát lành nguyên bản của một mùa hè tuổi thơ xưa cũ?
+                </p>
+                <p>
+                    Thương hiệu <strong class="text-earth-900 font-bold">"XƯA"</strong> được sinh ra không chỉ để giải khát. Chúng tôi gom góp những giọt nắng hè rực rỡ, chắt lọc hương vị truyền thống tinh túy nhất từ nông sản Việt Nam — từ quả sấu Hà Nội giòn sần sật, trái me ngâm chín mọng miền Nam, đến đóa atiso thanh mát xứ ngàn hoa Đà Lạt.
+                </p>
+                <p class="font-medium text-terracotta italic">
+                    Mỗi ngụm nước XƯA là lời gửi gắm tình yêu thương gia đình, là ly nước ngâm đong đầy tay mẹ pha sẵn trên bàn chào đón bạn trở về sau những giờ vui chơi trưa hè.
+                </p>
+
+                <!-- Stamp Signature -->
+                <div class="pt-4 flex justify-center items-center gap-4">
+                    <div class="w-20 h-20 rounded-full border-2 border-dashed border-terracotta p-1 flex items-center justify-center text-center text-[10px] font-bold text-terracotta leading-tight uppercase transform -rotate-12">
+                        XƯA<br>VIETNAM<br>TRUYỀN THỐNG
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHẦN 3: PRODUCT SHOWCASE -->
+    <section id="products" class="py-16 md:py-24 px-4 max-w-7xl mx-auto">
+        <div class="text-center space-y-4 mb-14">
+            <span class="text-xs font-bold text-atiso uppercase tracking-widest bg-cream-200 border border-atiso px-3 py-1 rounded-full">
+                Bộ 5 Hương Vị Ký Ức
+            </span>
+            <h2
+    class="text-3xl sm:text-4xl text-earth-900"
+    style="font-family:'DM Serif Display', serif; font-weight:400;"
+>
+    THƯỞNG THỨC
+    <span
+        class="text-terracotta"
+        style="font-family:'DM Serif Display', serif;"
+    >
+        HƯƠNG VỊ XƯA
+    </span>
+</h2>
+            <p class="text-earth-800 max-w-xl mx-auto text-sm sm:text-base">
+                Thưởng thức trọn vẹn nét đẹp mùa hè Việt Nam từ nông sản tự nhiên VietGAP với mức giá thân thiện <strong class="text-terracotta font-bold">chỉ từ 15.000đ/chai (330ml)</strong>.
+            </p>
+        </div>
+
+        <!-- 5-Product Grid Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            
+            <!-- Product 1: Nước Sấu -->
+            <div class="bg-paper rounded-2xl border-2 border-earth-900 vintage-shadow overflow-hidden flex flex-col justify-between group hover:-translate-y-1 transition-transform p-4">
+                <div>
+                    <!-- Visual Label Container -->
+                    <div class="h-48 bg-amber-100/80 rounded-xl border border-earth-800/20 p-3 flex flex-col items-center justify-center relative mb-4">
+                        <span class="absolute top-2 left-2 bg-terracotta text-white font-bold text-[9px] uppercase px-2 py-0.5 rounded border border-earth-900">
+                            Vị Hà Thành
+                        </span>
+                        
+                        <!-- Bottle Canvas Visual -->
+                        <img
+    src="Chai-sau.png"
+    alt="Chai nước sấu XƯA"
+    class="group-hover:scale-105 transition-transform"
+    style="height:165px; width:auto; object-fit:contain;"
+>
+                    </div>
+
+                    <div class="space-y-2">
+                       <h3
+    class="text-base text-earth-900"
+    style="font-family:'Be Vietnam Pro', sans-serif; font-weight:600;"
+>
+    Nước sấu Hà Nội
+</h3>
+                        <p class="text-xs text-earth-800 leading-relaxed">
+                            Chua thanh mát lạnh, giòn ngọt ban trưa. Hương sấu ngâm gừng Hà Thành xua tan cái nắng gắt.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pt-4 border-t border-earth-800/10 mt-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs text-earth-800 block leading-none">Giá lẻ</span>
+                        <span class="text-lg font-bold heading-serif text-terracotta">15.000đ</span>
+                    </div>
+                    <button onclick="addFlavorToOrder('Nước Sấu Hà Nội (15k)')" class="bg-cream-100 hover:bg-terracotta hover:text-white border border-earth-900 text-earth-900 font-bold text-xs px-3 py-2 rounded-lg transition-colors">
+                        + Chọn Vị
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 2: Me Ngâm -->
+            <div class="bg-paper rounded-2xl border-2 border-earth-900 vintage-shadow overflow-hidden flex flex-col justify-between group hover:-translate-y-1 transition-transform p-4">
+                <div>
+                    <!-- Visual Label Container -->
+                    <div class="h-48 bg-amber-200/60 rounded-xl border border-earth-800/20 p-3 flex flex-col items-center justify-center relative mb-4">
+                        <span class="absolute top-2 left-2 bg-amber-800 text-white font-bold text-[9px] uppercase px-2 py-0.5 rounded border border-earth-900">
+                            Vị Nam Bộ
+                        </span>
+
+                        <!-- Bottle Canvas Visual -->
+                        <img
+    src="Chai-me.png"
+    alt="Chai me ngâm XƯA"
+    class="group-hover:scale-105 transition-transform"
+    style="height:165px; width:auto; object-fit:contain;"
+>
+                    </div>
+
+                    <div class="space-y-2">
+                        <h3
+    class="text-base text-earth-900"
+    style="font-family:'Be Vietnam Pro', sans-serif; font-weight:600;"
+>
+    Me ngâm truyền thống
+</h3>
+                        <p class="text-xs text-earth-800 leading-relaxed">
+                            Chua ngọt đậm đà, vị me chín ngâm đường phèn giải nhiệt sảng khoái tức thì.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pt-4 border-t border-earth-800/10 mt-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs text-earth-800 block leading-none">Giá lẻ</span>
+                        <span class="text-lg font-bold heading-serif text-terracotta">15.000đ</span>
+                    </div>
+                    <button onclick="addFlavorToOrder('Me Ngâm Truyền Thống (15k)')" class="bg-cream-100 hover:bg-terracotta hover:text-white border border-earth-900 text-earth-900 font-bold text-xs px-3 py-2 rounded-lg transition-colors">
+                        + Chọn Vị
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 3: Dâu Tằm Đà Lạt -->
+            <div class="bg-paper rounded-2xl border-2 border-earth-900 vintage-shadow overflow-hidden flex flex-col justify-between group hover:-translate-y-1 transition-transform p-4">
+                <div>
+                    <!-- Visual Label Container -->
+                    <div class="h-48 bg-purple-100/80 rounded-xl border border-earth-800/20 p-3 flex flex-col items-center justify-center relative mb-4">
+                        <span class="absolute top-2 left-2 bg-purple-800 text-white font-bold text-[9px] uppercase px-2 py-0.5 rounded border border-earth-900">
+                            Bổ Dưỡng
+                        </span>
+
+                        <!-- Bottle Canvas Visual -->
+                        <img
+    src="Chai-dau-tam.png"
+    alt="Chai dâu tằm XƯA"
+    class="group-hover:scale-105 transition-transform"
+    style="height:165px; width:auto; object-fit:contain;"
+>
+                    </div>
+
+                    <div class="space-y-2">
+                        <h3
+    class="text-base text-earth-900"
+    style="font-family:'Be Vietnam Pro', sans-serif; font-weight:600;"
+>
+    Dâu tằm
+</h3>
+                        <p class="text-xs text-earth-800 leading-relaxed">
+                            Mát lạnh dịu êm, màu tím đỏ tự nhiên giàu dưỡng chất nuôi dưỡng tâm hồn tươi trẻ.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pt-4 border-t border-earth-800/10 mt-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs text-earth-800 block leading-none">Giá lẻ</span>
+                        <span class="text-lg font-bold heading-serif text-terracotta">18.000đ</span>
+                    </div>
+                    <button onclick="addFlavorToOrder('Dâu Tằm Đà Lạt (18k)')" class="bg-cream-100 hover:bg-terracotta hover:text-white border border-earth-900 text-earth-900 font-bold text-xs px-3 py-2 rounded-lg transition-colors">
+                        + Chọn Vị
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 4: Atiso -->
+            <div class="bg-paper rounded-2xl border-2 border-earth-900 vintage-shadow overflow-hidden flex flex-col justify-between group hover:-translate-y-1 transition-transform p-4">
+                <div>
+                    <!-- Visual Label Container -->
+                    <div class="h-48 bg-emerald-100/80 rounded-xl border border-earth-800/20 p-3 flex flex-col items-center justify-center relative mb-4">
+                        <span class="absolute top-2 left-2 bg-atiso text-white font-bold text-[9px] uppercase px-2 py-0.5 rounded border border-earth-900">
+                            Thanh Nhiệt
+                        </span>
+
+                        <!-- Bottle Canvas Visual -->
+                        <img
+    src="Chai-atiso.png"
+    alt="Chai atiso XƯA"
+    class="group-hover:scale-105 transition-transform"
+    style="height:165px; width:auto; object-fit:contain;"
+>
+                    </div>
+
+                    <div class="space-y-2">
+                        <h3
+    class="text-base text-earth-900"
+    style="font-family:'Be Vietnam Pro', sans-serif; font-weight:600;"
+>
+    Atiso thanh nhiệt
+</h3>
+                        <p class="text-xs text-earth-800 leading-relaxed">
+                            Thanh mát tự nhiên, chiết xuất đóa atiso đỏ thanh lọc cơ thể dịu nhẹ dễ chịu.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pt-4 border-t border-earth-800/10 mt-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs text-earth-800 block leading-none">Giá lẻ</span>
+                        <span class="text-lg font-bold heading-serif text-terracotta">18.000đ</span>
+                    </div>
+                    <button onclick="addFlavorToOrder('Atiso Thanh Nhiệt (18k)')" class="bg-cream-100 hover:bg-terracotta hover:text-white border border-earth-900 text-earth-900 font-bold text-xs px-3 py-2 rounded-lg transition-colors">
+                        + Chọn Vị
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 5: Mơ Ngâm -->
+            <div class="bg-paper rounded-2xl border-2 border-earth-900 vintage-shadow overflow-hidden flex flex-col justify-between group hover:-translate-y-1 transition-transform p-4">
+                <div>
+                    <!-- Visual Label Container -->
+                    <div class="h-48 bg-yellow-100/80 rounded-xl border border-earth-800/20 p-3 flex flex-col items-center justify-center relative mb-4">
+                        <span class="absolute top-2 left-2 bg-sunshine text-earth-900 font-bold text-[9px] uppercase px-2 py-0.5 rounded border border-earth-900">
+                            Hoài Niệm
+                        </span>
+
+                        <!-- Bottle Canvas Visual -->
+                        <img
+    src="Chai-mo.png"
+    alt="Chai mơ ngâm XƯA"
+    class="group-hover:scale-105 transition-transform"
+    style="height:165px; width:auto; object-fit:contain;"
+>
+                    </div>
+
+                    <div class="space-y-2">
+                        <h3
+    class="text-base text-earth-900"
+    style="font-family:'Be Vietnam Pro', sans-serif; font-weight:600;"
+>
+    Mơ ngâm phố cổ
+</h3>
+                        <p class="text-xs text-earth-800 leading-relaxed">
+                            Hương thơm nồng nàn mơ má đào Chùa Hương, hậu vị chua ngọt tao nhã hoài cổ.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pt-4 border-t border-earth-800/10 mt-4 flex items-center justify-between">
+                    <div>
+                        <span class="text-xs text-earth-800 block leading-none">Giá lẻ</span>
+                        <span class="text-lg font-bold heading-serif text-terracotta">15.000đ</span>
+                    </div>
+                    <button onclick="addFlavorToOrder('Mơ Ngâm Phố Cổ (15k)')" class="bg-cream-100 hover:bg-terracotta hover:text-white border border-earth-900 text-earth-900 font-bold text-xs px-3 py-2 rounded-lg transition-colors">
+                        + Chọn Vị
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Packaging Art Highlight Banner -->
+        <div class="mt-12 bg-cream-200 rounded-3xl border-2 border-earth-900 p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="space-y-2 text-center md:text-left">
+                <span class="text-xs font-bold text-terracotta uppercase tracking-wider">Đặc Quyền Thiết Kế Indochine</span>
+                <h3 class="text-2xl font-bold heading-serif text-earth-900">BAO BÌ GỘP BỨC TRANH MÙA HÈ VIỆT NAM</h3>
+                <p class="text-sm text-earth-800 max-w-2xl">
+                    Đặt đủ bộ 5 chai nước XƯA và xếp liền cạnh nhau để khám phá bức tranh màu nước độc bản tái hiện ký ức tuổi thơ Việt Nam: Xe đạp, Cổng làng, Nhảy dây, Hiên nhà cúc vàng và Chơi bắn bi!
+                </p>
+            </div>
+            <a href="#combos" class="shrink-0 bg-terracotta hover:bg-terracotta-dark text-white font-bold text-xs uppercase tracking-wider px-6 py-3.5 rounded-full border-2 border-earth-900 vintage-shadow-sm transition-all">
+                Sưu Tầm Cả Bộ 5 Vị (79k)
+            </a>
+        </div>
+    </section>
+
+    <!-- PHẦN 4: ORDER & STORE LOCATOR -->
+    <section id="combos" class="py-16 md:py-24 px-4 bg-cream-200 border-y-2 border-earth-900/10">
+        <div class="max-w-7xl mx-auto space-y-16">
+            
+            <div class="text-center space-y-4">
+                <span class="text-xs font-bold text-terracotta uppercase tracking-widest bg-cream-100 border border-terracotta px-3 py-1 rounded-full">
+                    Gói Ưu Đãi Bán Hàng Trực Tiếp (D2C)
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-bold heading-serif text-earth-900">
+                    MANG VỊ XƯA VỀ NHÀ <span class="text-terracotta">Chỉ Từ 15.000đ</span>
+                </h2>
+                <p class="text-earth-800 text-sm sm:text-base max-w-xl mx-auto">
+                    Ưu đãi đặc biệt trong chiến dịch "Vị Hè Trở Lại" — Nhận bộ quà tặng hoài cổ độc quyền!
+                </p>
+            </div>
+
+            <!-- Combo Pricing Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
+                
+                <!-- Combo 1 -->
+                <div class="bg-cream-100 rounded-3xl border-2 border-earth-900 vintage-shadow p-6 sm:p-8 flex flex-col justify-between space-y-6">
+                    <div class="space-y-4">
+                        <span class="text-xs font-bold text-earth-800 bg-cream-200 px-3 py-1 rounded-full border border-earth-800/20">
+                            Trải nghiệm đơn giản
+                        </span>
+                        <h3 class="text-2xl font-bold heading-serif text-earth-900">COMBO "THỬ VỊ XƯA"</h3>
+                        <p class="text-xs text-earth-800">3 chai tự chọn hương vị theo sở thích riêng của bạn.</p>
+                        
+                        <div class="pt-2">
+                            <span class="text-3xl font-bold heading-serif text-terracotta">45.000đ</span>
+                            <span class="text-xs text-earth-800 line-through ml-2">55.000đ</span>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-earth-800 pt-4 border-t border-earth-800/10">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-terracotta"></i>
+                                <span><strong>3 Chai</strong> tự chọn (15.000đ/chai)</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-gift text-sunshine"></i>
+                                <span><strong>Quà tặng:</strong> Bộ Postcard màu nước Ký Ức</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-snowflake text-sky-600"></i>
+                                <span>Giao hàng ướp lạnh siêu tốc</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="selectComboOption('Combo 1: Thử Vị Xưa (3 Chai - 45.000đ)', 45000)" class="w-full bg-cream-200 hover:bg-terracotta hover:text-white border-2 border-earth-900 text-earth-900 font-bold text-sm py-3 rounded-full transition-colors text-center">
+                        Chọn Combo 1
+                    </button>
+                </div>
+
+                <!-- Combo 2 (Best Seller Featured) -->
+                <div class="bg-paper rounded-3xl border-4 border-terracotta vintage-shadow-orange p-6 sm:p-8 flex flex-col justify-between space-y-6 relative md:-translate-y-3">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-terracotta text-white font-extrabold text-[13px] uppercase px-6 h-10 rounded-full border-2 border-earth-900 shadow flex items-center justify-center whitespace-nowrap">
+                        ★ Được Chọn Nhiều Nhất ★
+                    </div>
+
+                    <div class="space-y-4 pt-2">
+                        <span class="text-xs font-bold text-terracotta bg-terracotta/10 px-3 py-1 rounded-full">
+                            Trọn bộ bức tranh màu nước
+                        </span>
+                        <h3 class="text-2xl font-bold heading-serif text-earth-900">COMBO "MÙA HÈ TRỌN VẸN"</h3>
+                        <p class="text-xs text-earth-800">Trọn bộ 5 chai 5 vị ghép thành bức tranh Indochine hoàn chỉnh.</p>
+                        
+                        <div class="pt-2">
+                            <span class="text-4xl font-bold heading-serif text-terracotta">79.000đ</span>
+                            <span class="text-xs text-earth-800 line-through ml-2">95.000đ</span>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-earth-800 pt-4 border-t border-earth-800/10">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-terracotta"></i>
+                                <span><strong>5 Chai trọn bộ 5 vị</strong> truyền thống</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-truck-fast text-atiso"></i>
+                                <span><strong>Miễn Phí Vận Chuyển</strong> nội thành</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-gift text-sunshine"></i>
+                                <span><strong>Quà tặng:</strong> Ly thủy tinh hoài cổ XƯA</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="selectComboOption('Combo 2: Mùa Hè Trọn Vẹn (5 Chai - 79.000đ)', 79000)" class="w-full bg-terracotta hover:bg-terracotta-dark text-white font-bold text-sm py-3.5 rounded-full border-2 border-earth-900 text-center transition-colors">
+                        ĐẶT COMBO TRỌN VẸN (79K)
+                    </button>
+                </div>
+
+                <!-- Combo 3 -->
+                <div class="bg-cream-100 rounded-3xl border-2 border-earth-900 vintage-shadow p-6 sm:p-8 flex flex-col justify-between space-y-6">
+                    <div class="space-y-4">
+                        <span class="text-xs font-bold text-earth-800 bg-cream-200 px-3 py-1 rounded-full border border-earth-800/20">
+                            Thùng tiết kiệm gia đình
+                        </span>
+                        <h3 class="text-2xl font-bold heading-serif text-earth-900">THÙNG "KÝ ỨC SUM VẦY"</h3>
+                        <p class="text-xs text-earth-800">Thưởng thức thoải mái cùng gia đình hoặc làm quà biếu trân quý.</p>
+                        
+                        <div class="pt-2">
+                            <span class="text-3xl font-bold heading-serif text-terracotta">175.000đ</span>
+                            <span class="text-xs text-earth-800 line-through ml-2">210.000đ</span>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-earth-800 pt-4 border-t border-earth-800/10">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-terracotta"></i>
+                                <span><strong>12 Chai</strong> (Đủ vị tùy chọn)</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-truck-fast text-atiso"></i>
+                                <span><strong>FreeShip + Giao siêu tốc 2H</strong></span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-gift text-sunshine"></i>
+                                <span><strong>Quà tặng:</strong> Túi Cót Xưa + Quạt giấy nghệ thuật</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button onclick="selectComboOption('Combo 3: Thùng Ký Ức Sum Vầy (12 Chai - 175.000đ)', 175000)" class="w-full bg-cream-200 hover:bg-terracotta hover:text-white border-2 border-earth-900 text-earth-900 font-bold text-sm py-3 rounded-full transition-colors text-center">
+                        Chọn Combo 3
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- CHECKOUT FORM -->
+            <div id="order-form" class="max-w-3xl mx-auto bg-cream-100 rounded-3xl border-2 border-earth-900 vintage-shadow p-6 sm:p-10">
+                <div class="text-center space-y-2 mb-8">
+                    <span class="badge-stamp text-xs text-terracotta border-terracotta">
+                        Form Đặt Hàng Trực Tiếp
+                    </span>
+                    <h3 class="text-2xl sm:text-3xl font-bold heading-serif text-earth-900">
+                        XÁC NHẬN ĐƠN HÀNG <span class="text-terracotta">NƯỚC XƯA</span>
+                    </h3>
+                    <p class="text-xs sm:text-sm text-earth-800">
+                        Điền thông tin bên dưới để nhận ưu đãi & quà tặng độc quyền giao tận nơi.
+                    </p>
+                </div>
+
+                <form id="checkoutForm" onsubmit="handleFormSubmit(event)" class="space-y-5">
+                    
+                    <div>
+                        <label class="block text-xs font-bold text-earth-900 uppercase tracking-wider mb-2">Họ và tên người nhận *</label>
+                        <input type="text" id="fullName" required placeholder="Ví dụ: Nguyễn Văn A" class="w-full bg-cream-200 border-2 border-earth-900 rounded-xl px-4 py-3 text-sm text-earth-900 focus:outline-none focus:border-terracotta">
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <div>
+                            <label class="block text-xs font-bold text-earth-900 uppercase tracking-wider mb-2">Số điện thoại *</label>
+                            <input type="tel" id="phoneNumber" required placeholder="Ví dụ: 0987654321" class="w-full bg-cream-200 border-2 border-earth-900 rounded-xl px-4 py-3 text-sm text-earth-900 focus:outline-none focus:border-terracotta">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-earth-900 uppercase tracking-wider mb-2">Lựa chọn Sản phẩm / Combo *</label>
+                            <select id="comboSelect" onchange="calculateOrderTotal()" required class="w-full bg-cream-200 border-2 border-earth-900 rounded-xl px-4 py-3 text-sm text-earth-900 focus:outline-none focus:border-terracotta">
+                                <option value="Combo 2: Mùa Hè Trọn Vẹn (5 Chai - 79.000đ)">Combo 2: Mùa Hè Trọn Vẹn (5 Chai) - 79.000đ (Best Seller)</option>
+                                <option value="Combo 1: Thử Vị Xưa (3 Chai - 45.000đ)">Combo 1: Thử Vị Xưa (3 Chai) - 45.000đ</option>
+                                <option value="Combo 3: Thùng Ký Ức Sum Vầy (12 Chai - 175.000đ)">Combo 3: Thùng Sum Vầy (12 Chai) - 175.000đ</option>
+                                <option value="Mua Lẻ: Tự Chọn Vị (15.000đ/chai)">Mua Lẻ Tự Chọn Vị - Từ 15.000đ/chai</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-earth-900 uppercase tracking-wider mb-2">Địa chỉ nhận hàng chi tiết *</label>
+                        <input type="text" id="address" required placeholder="Số nhà, Tên đường, Phường/Xã, Quận/Huyện, Thành phố" class="w-full bg-cream-200 border-2 border-earth-900 rounded-xl px-4 py-3 text-sm text-earth-900 focus:outline-none focus:border-terracotta">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-earth-900 uppercase tracking-wider mb-2">Ghi chú hương vị / Yêu cầu thêm</label>
+                        <textarea id="note" rows="2" placeholder="Ví dụ: Lấy cho mình 2 Sấu, 2 Me, 1 Dâu..." class="w-full bg-cream-200 border-2 border-earth-900 rounded-xl px-4 py-3 text-sm text-earth-900 focus:outline-none focus:border-terracotta"></textarea>
+                    </div>
+
+                    <!-- Live Total Price Calculator -->
+                    <div class="bg-cream-200 p-4 rounded-xl border border-earth-800/20 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-earth-800 block">Tổng thanh toán dự kiến:</span>
+                            <span id="displayTotal" class="text-2xl font-bold heading-serif text-terracotta">79.000đ</span>
+                        </div>
+                        <span class="text-[11px] text-atiso font-semibold bg-atiso/10 px-2.5 py-1 rounded">
+                            <i class="fa-solid fa-truck-fast"></i> Giao ướp lạnh siêu tốc 2H
+                        </span>
+                    </div>
+
+                    <button type="submit" class="w-full bg-terracotta hover:bg-terracotta-dark text-white font-bold text-base py-4 rounded-full border-2 border-earth-900 vintage-shadow transition-all transform hover:-translate-y-0.5">
+                        XÁC NHẬN ĐẶT HÀNG NGAY
+                    </button>
+                </form>
+            </div>
+
+            <!-- STORE LOCATOR & RETAIL DISTRIBUTION -->
+            <div id="store-locator" class="pt-8 border-t-2 border-earth-900/10">
+                <div class="text-center space-y-3 mb-8">
+                    <span class="text-xs font-bold text-atiso uppercase tracking-widest bg-cream-100 border border-atiso px-3 py-1 rounded-full">
+                        Hệ Thống Phân Phối & Điểm Bán
+                    </span>
+                    <h3 class="text-2xl sm:text-3xl font-bold heading-serif text-earth-900">
+                        MUA NƯỚC XƯA Ở ĐÂU?
+                    </h3>
+                    <p class="text-xs sm:text-sm text-earth-800">
+                        Sản phẩm đã có mặt tại chuỗi cửa hàng tiện lợi, siêu thị và các ứng dụng giao hàng toàn quốc
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
+                    <div class="bg-cream-100 p-4 rounded-2xl border border-earth-800/20 flex flex-col items-center justify-center space-y-2">
+                        <i class="fa-solid fa-store text-2xl text-terracotta"></i>
+                        <span class="text-xs font-bold text-earth-900">Circle K / GS25</span>
+                        <span class="text-[10px] text-earth-800">Cửa hàng tiện lợi</span>
+                    </div>
+                    <div class="bg-cream-100 p-4 rounded-2xl border border-earth-800/20 flex flex-col items-center justify-center space-y-2">
+                        <i class="fa-solid fa-cart-flatbed text-2xl text-atiso"></i>
+                        <span class="text-xs font-bold text-earth-900">WinMart / Co.opmart</span>
+                        <span class="text-[10px] text-earth-800">Chuỗi siêu thị lớn</span>
+                    </div>
+                    <div class="bg-cream-100 p-4 rounded-2xl border border-earth-800/20 flex flex-col items-center justify-center space-y-2">
+                        <i class="fa-solid fa-motorcycle text-2xl text-sunshine"></i>
+                        <span class="text-xs font-bold text-earth-900">GrabMart / ShopeeFood</span>
+                        <span class="text-[10px] text-earth-800">Giao nhanh 20 phút</span>
+                    </div>
+                    <div class="bg-cream-100 p-4 rounded-2xl border border-earth-800/20 flex flex-col items-center justify-center space-y-2">
+                        <i class="fa-solid fa-bag-shopping text-2xl text-purple-800"></i>
+                        <span class="text-xs font-bold text-earth-900">Shopee Mall</span>
+                        <span class="text-[10px] text-earth-800">Gian hàng chính hãng</span>
+                    </div>
+                    <div class="bg-cream-100 p-4 rounded-2xl border border-earth-800/20 flex flex-col items-center justify-center space-y-2 col-span-2 sm:col-span-1">
+                        <i class="fa-solid fa-map-location-dot text-2xl text-earth-800"></i>
+                        <span class="text-xs font-bold text-earth-900">+500 Đại Lý XƯA</span>
+                        <span class="text-[10px] text-earth-800">Toàn quốc</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PHẦN 5: SOCIAL PROOF & MEDIA -->
+    <section id="reviews" class="py-16 md:py-24 px-4 max-w-7xl mx-auto space-y-16">
+        
+        <div class="text-center space-y-3">
+            <span class="text-xs font-bold text-atiso uppercase tracking-widest bg-cream-200 border border-atiso px-3 py-1 rounded-full">
+                Góc Cảm Nhận Khách Hàng
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-bold heading-serif text-earth-900">
+                Người Trẻ Nói Gì Về <span class="text-terracotta">Nước XƯA</span>?
+            </h2>
+        </div>
+
+        <!-- Reviews Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Review 1 -->
+            <div class="bg-cream-100 p-6 rounded-3xl border-2 border-earth-900 vintage-shadow flex flex-col justify-between space-y-4">
+                <div class="space-y-3">
+                    <div class="flex items-center gap-1 text-sunshine text-xs">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-sm text-earth-800 italic leading-relaxed">
+                        "Mở nắp chai Nước Sấu Xưa ướp lạnh phát làm mình nổi da gà vì nhớ ngay khoảng thời gian nghỉ hè ở quê ngoại. Vị chua thanh vừa phải, bớt ngọt hơn nước công nghiệp nhiều mà giá chỉ 15k quá rẻ!"
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 pt-4 border-t border-earth-800/10">
+                    <div class="w-10 h-10 rounded-full bg-terracotta text-white flex items-center justify-center font-bold text-sm">
+                        TH
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-bold text-earth-900">Thanh Hằng</h4>
+                        <span class="text-xs text-earth-800">26 tuổi, Content Creator (TP.HCM)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="bg-cream-100 p-6 rounded-3xl border-2 border-earth-900 vintage-shadow flex flex-col justify-between space-y-4">
+                <div class="space-y-3">
+                    <div class="flex items-center gap-1 text-sunshine text-xs">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-sm text-earth-800 italic leading-relaxed">
+                        "Ấn tượng nhất là thiết kế bao bì tranh màu nước. Mua cả set 5 chai về để lên bàn làm việc nhìn mê thực sự. Vị Atiso Dâu Tằm uống chiều ngột ngạt ở công ty siêu sảng khoái."
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 pt-4 border-t border-earth-800/10">
+                    <div class="w-10 h-10 rounded-full bg-atiso text-white flex items-center justify-center font-bold text-sm">
+                        MINH
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-bold text-earth-900">Minh Đức</h4>
+                        <span class="text-xs text-earth-800">29 tuổi, UI/UX Designer (Hà Nội)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="bg-cream-100 p-6 rounded-3xl border-2 border-earth-900 vintage-shadow flex flex-col justify-between space-y-4">
+                <div class="space-y-3">
+                    <div class="flex items-center gap-1 text-sunshine text-xs">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-sm text-earth-800 italic leading-relaxed">
+                        "Mình đặt thùng 12 chai làm quà biếu bố mẹ. Bố mình khen nước Mơ ngâm chuẩn vị Phố cổ ngày xưa, còn mẹ thì mê vị Me ngâm. Nhất định sẽ ủng hộ Xưa dài dài!"
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 pt-4 border-t border-earth-800/10">
+                    <div class="w-10 h-10 rounded-full bg-sunshine text-earth-900 flex items-center justify-center font-bold text-sm">
+                        LY
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-bold text-earth-900">Khánh Ly</h4>
+                        <span class="text-xs text-earth-800">24 tuổi, Marketer (Đà Nẵng)</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Trust Badges & Quality Certifications -->
+        <div class="bg-paper rounded-3xl border-2 border-earth-900 p-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="space-y-2">
+                <div class="w-12 h-12 rounded-full bg-atiso/10 text-atiso flex items-center justify-center text-2xl mx-auto">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <h4 class="text-sm font-bold text-earth-900">Chuẩn VietGAP</h4>
+                <p class="text-xs text-earth-800">Nông sản sạch 100% tự nhiên</p>
+            </div>
+            <div class="space-y-2">
+                <div class="w-12 h-12 rounded-full bg-terracotta/10 text-terracotta flex items-center justify-center text-2xl mx-auto">
+                    <i class="fa-solid fa-shield-virus"></i>
+                </div>
+                <h4 class="text-sm font-bold text-earth-900">An Toàn VSTP</h4>
+                <p class="text-xs text-earth-800">Chứng nhận Bộ Y Tế</p>
+            </div>
+            <div class="space-y-2">
+                <div class="w-12 h-12 rounded-full bg-sunshine/10 text-sunshine flex items-center justify-center text-2xl mx-auto">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <h4 class="text-sm font-bold text-earth-900">ISO 22000</h4>
+                <p class="text-xs text-earth-800">Quy trình sản xuất tiêu chuẩn</p>
+            </div>
+            <div class="space-y-2">
+                <div class="w-12 h-12 rounded-full bg-earth-900/10 text-earth-900 flex items-center justify-center text-2xl mx-auto">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <h4 class="text-sm font-bold text-earth-900">-30% Đường Thanh</h4>
+                <p class="text-xs text-earth-800">Tốt cho sức khỏe người dùng</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PHẦN 6: FOOTER -->
+    <footer class="bg-earth-900 text-cream-100 pt-16 pb-12 px-4 border-t-2 border-earth-900">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10">
+            
+            <!-- Brand Info -->
+            <div class="md:col-span-5 space-y-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-full bg-terracotta text-white flex items-center justify-center font-bold text-xl heading-serif">
+                        X
+                    </div>
+                    <span class="text-2xl font-bold heading-serif tracking-widest text-cream-100">THƯƠNG HIỆU XƯA</span>
+                </div>
+                <p class="text-xs text-cream-200/80 leading-relaxed max-w-sm">
+                    Nước giải khát thiên nhiên mang hương vị truyền thống Việt Nam. Gửi gắm tình yêu thương gia đình và lưu giữ ký ức mùa hè tuổi thơ qua từng chai nước mát lành.
+                </p>
+                <div class="pt-2 text-xs text-sunshine font-semibold">
+                    <i class="fa-solid fa-bullhorn mr-1.5"></i>
+                    <span>Chiến dịch ra mắt: "Vị Hè Trở Lại"</span>
+                </div>
+            </div>
+
+            <!-- Contact & Hotlines -->
+            <div class="md:col-span-4 space-y-3 text-xs text-cream-200/80">
+                <h4 class="text-sm font-bold text-cream-100 uppercase tracking-wider mb-2">Thông Tin Liên Hệ</h4>
+                <p><i class="fa-solid fa-headset mr-2 text-terracotta-light"></i> Hotline hỗ trợ: <strong>1900 XUA DRINK (1900 9876)</strong></p>
+                <p><i class="fa-solid fa-envelope mr-2 text-terracotta-light"></i> Email: chamsockhachhang@xuadrink.vn</p>
+                <p><i class="fa-solid fa-location-dot mr-2 text-terracotta-light"></i> Văn phòng: Hà Nội & TP. Hồ Chí Minh</p>
+                <p><i class="fa-solid fa-snowflake mr-2 text-terracotta-light"></i> Dịch vụ: Giao hàng ướp lạnh siêu tốc 2H</p>
+            </div>
+
+            <!-- Policies & Social -->
+            <div class="md:col-span-3 space-y-4 text-xs text-cream-200/70">
+                <h4 class="text-sm font-bold text-cream-100 uppercase tracking-wider">Kết Nối Với XƯA</h4>
+                <div class="flex items-center gap-3 text-lg">
+                    <a href="#" class="w-9 h-9 rounded-full bg-cream-100/10 hover:bg-terracotta text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="w-9 h-9 rounded-full bg-cream-100/10 hover:bg-terracotta text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="w-9 h-9 rounded-full bg-cream-100/10 hover:bg-terracotta text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="w-9 h-9 rounded-full bg-cream-100/10 hover:bg-terracotta text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="space-y-1 text-[11px]">
+                    <a href="#" class="block hover:underline">Chính sách giao hàng & đổi trả</a>
+                    <a href="#" class="block hover:underline">Bảo mật thông tin khách hàng</a>
+                    <a href="#" class="block hover:underline">Liên hệ hợp tác phân phối / Đại lý</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto mt-12 pt-6 border-t border-cream-100/10 flex flex-col sm:flex-row items-center justify-between text-[11px] text-cream-200/50 gap-4">
+            <p>© 2026 XƯA Brand. Sản phẩm thuộc chiến dịch "Vị Hè Trở Lại". All rights reserved.</p>
+            <p>Đã đăng ký Bộ Công Thương Việt Nam</p>
+        </div>
+    </footer>
+
+    <!-- SUCCESS MODAL -->
+    <div id="successModal" class="fixed inset-0 bg-earth-900/70 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
+        <div class="bg-cream-100 max-w-md w-full rounded-3xl border-2 border-earth-900 vintage-shadow p-8 text-center space-y-6">
+            <div class="w-16 h-16 bg-atiso text-white rounded-full flex items-center justify-center text-3xl mx-auto border-2 border-earth-900">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            
+            <div class="space-y-2">
+                <h3 class="text-2xl font-bold heading-serif text-earth-900">ĐẶT HÀNG THÀNH CÔNG!</h3>
+                <p class="text-xs sm:text-sm text-earth-800">
+                    Cảm ơn bạn đã đồng hành cùng chiến dịch <strong class="text-terracotta">"Vị Hè Trở Lại"</strong> của XƯA. Chúng tôi sẽ liên hệ xác nhận đơn hàng trong vòng 15 phút.
+                </p>
+            </div>
+
+            <div class="bg-cream-200 p-4 rounded-xl text-xs text-earth-900 text-left space-y-1.5 border border-earth-800/20">
+                <p><strong>Người nhận:</strong> <span id="modalName">...</span></p>
+                <p><strong>SĐT:</strong> <span id="modalPhone">...</span></p>
+                <p><strong>Gói hàng:</strong> <span id="modalCombo">...</span></p>
+                <p><strong>Địa chỉ:</strong> <span id="modalAddress">...</span></p>
+            </div>
+
+            <button onclick="closeModal()" class="w-full bg-terracotta hover:bg-terracotta-dark text-white font-bold text-sm py-3 rounded-full border-2 border-earth-900">
+                Đóng & Tiếp Tục Trải Nghiệm
+            </button>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Web Audio API Synthesizer for "Tách" Bottle Opening Sound
+        function playCapSound() {
+    const audio = new Audio("tach.mp3");
+    audio.currentTime = 0;
+    audio.play();
+}
+
+        // Toggle Mobile Navigation Drawer
+        function toggleMobileMenu() {
+            const drawer = document.getElementById('mobileDrawer');
+            drawer.classList.toggle('hidden');
+        }
+
+        // Add Product Flavor helper
+        function addFlavorToOrder(flavorInfo) {
+            const noteEl = document.getElementById('note');
+            if (noteEl.value.trim() === '') {
+                noteEl.value = 'Ưu tiên vị: ' + flavorInfo;
+            } else {
+                noteEl.value += ', ' + flavorInfo;
+            }
+            playCapSound();
+            document.getElementById('order-form').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Select Combo Option Helper
+        function selectComboOption(comboText, priceVal) {
+            const selectEl = document.getElementById('comboSelect');
+            for (let i = 0; i < selectEl.options.length; i++) {
+                if (selectEl.options[i].value.includes(comboText.split(' (')[0])) {
+                    selectEl.selectedIndex = i;
+                    break;
+                }
+            }
+            calculateOrderTotal();
+            playCapSound();
+            document.getElementById('order-form').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Calculate Price Helper
+        function calculateOrderTotal() {
+            const comboVal = document.getElementById('comboSelect').value;
+            const displayEl = document.getElementById('displayTotal');
+            
+            if (comboVal.includes('79.000')) {
+                displayEl.textContent = '79.000đ';
+            } else if (comboVal.includes('45.000')) {
+                displayEl.textContent = '45.000đ';
+            } else if (comboVal.includes('175.000')) {
+                displayEl.textContent = '175.000đ';
+            } else {
+                displayEl.textContent = '15.000đ / chai';
+            }
+        }
+
+        // Handle Order Form Submission
+        function handleFormSubmit(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('fullName').value;
+            const phone = document.getElementById('phoneNumber').value;
+            const combo = document.getElementById('comboSelect').value;
+            const address = document.getElementById('address').value;
+
+            document.getElementById('modalName').textContent = name;
+            document.getElementById('modalPhone').textContent = phone;
+            document.getElementById('modalCombo').textContent = combo;
+            document.getElementById('modalAddress').textContent = address;
+
+            playCapSound();
+
+            const modal = document.getElementById('successModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('successModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.getElementById('checkoutForm').reset();
+            calculateOrderTotal();
+        }
+    </script>
+</body>
+</html>
